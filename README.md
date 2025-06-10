@@ -86,25 +86,26 @@ Metrics are automatically saved to Excel files in the `./metrics_reports/` direc
 - Summary statistics
 - Timestamp-based tracking
 
-## Troubleshooting
+## Metrics
 
-1. If you see "Missing required packages!" error:
-   - Run: `pip install pandas openpyxl`
 
-2. If metrics are showing as 0:
-   - This is normal for STT/EOU metrics depending on your configuration
-   - Check your API keys and environment variables
-   - Ensure your LiveKit server is running and accessible
 
-3. Connection issues:
-   - Verify your LiveKit server URL and credentials
-   - Check your network connection
-   - Ensure both entry.py and call.py are running
+![Screenshot 2025-06-10 112300](https://github.com/user-attachments/assets/4905486c-f1d2-4356-8f4e-cb9f0b99d86c)
+![Screenshot 2025-06-10 112309](https://github.com/user-attachments/assets/9ed9b9be-5d29-4bcd-9f2e-e8f1a07559a2)
+![Screenshot 2025-06-10 112322](https://github.com/user-attachments/assets/29101c84-55a8-4a98-a827-f9044b598bd2)
+![Screenshot 2025-06-10 102244](https://github.com/user-attachments/assets/95bf55ea-d449-43f7-ba70-4d5d3bc9e7d1)
 
-## License
+## Final Result:-
 
-[Add your license information here]
+*total_latency = eou.end_of_utterance_delay + llm.ttft + tts.ttfb*
 
-## Contributing
+![image](https://github.com/user-attachments/assets/43c8dc75-b8c0-4d71-8441-089118036b71)
 
-[Add contribution guidelines if applicable] 
+
+## Video demo Link
+
+https://drive.google.com/file/d/1UXeviEbYPHKgD1jUWfyc5Ugb7dVtrLBI/view?usp=sharing
+
+
+
+
